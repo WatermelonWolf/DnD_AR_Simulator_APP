@@ -1,0 +1,142 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.google.ar.sceneform.plugin'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.example.dnd_ar_simulator"
+        minSdkVersion 26
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.core:core-ktx:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    //sceneform
+    implementation "com.google.ar.sceneform.ux:sceneform-ux:1.12.0"
+    implementation "com.google.ar.sceneform:animation:1.12.0"
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.google.ar:core:1.12.0'
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+}
+
+
+sceneform.asset('sampledata/models/cangrejo.fbx',
+        'default',
+        'sampledata/models/cangrejo.sfa',
+        'src/main/assets/cangrejo')
+
+sceneform.asset('sampledata/models/bear.fbx',
+        'default',
+        'sampledata/models/bear.sfa',
+        'src/main/res/raw/bear')
+
+sceneform.asset('sampledata/models/cat.fbx',
+        'default',
+        'sampledata/models/cat.sfa',
+        'src/main/res/raw/cat')
+
+sceneform.asset('sampledata/models/hippopotamus.fbx',
+        'default',
+        'sampledata/models/hippopotamus.sfa',
+        'src/main/res/raw/hippopotamus')
+
+sceneform.asset('sampledata/models/horse.fbx',
+        'default',
+        'sampledata/models/horse.sfa',
+        'src/main/res/raw/horse')
+
+sceneform.asset('sampledata/models/lion.fbx',
+        'default',
+        'sampledata/models/lion.sfa',
+        'src/main/res/raw/lion')
+
+
+sceneform.asset('sampledata/ModelsB/chair.fbx',
+        'default',
+        'sampledata/ModelsB/chair.sfa',
+        'src/main/res/raw/chair')
+
+sceneform.asset('sampledata/ModelsB/chest.fbx',
+        'default',
+        'sampledata/ModelsB/chest.sfa',
+        'src/main/res/raw/chest')
+
+sceneform.asset('sampledata/ModelsB/dungeonwall.fbx',
+        'default',
+        'sampledata/ModelsB/dungeonwall.sfa',
+        'src/main/res/raw/dungeonwall')
+
+sceneform.asset('sampledata/ModelsB/reaper.fbx',
+        'default',
+        'sampledata/ModelsB/reaper.sfa',
+        'src/main/res/raw/reaper')
+
+sceneform.asset('sampledata/ModelsB/table.fbx',
+        'default',
+        'sampledata/ModelsB/table.sfa',
+        'src/main/res/raw/table')
+
+sceneform.asset('sampledata/ModelsB/werewolf.fbx',
+        'default',
+        'sampledata/ModelsB/werewolf.sfa',
+        'src/main/res/raw/werewolf')
+
+sceneform.asset('sampledata/ModelsB/grave.fbx',
+        'default',
+        'sampledata/ModelsB/grave.sfa',
+        'src/main/res/raw/grave')
+
+sceneform.asset('sampledata/ModelsB/hauntedhouse.fbx',
+        'default',
+        'sampledata/ModelsB/hauntedhouse.sfa',
+        'src/main/res/raw/hauntedhouse')
+
+sceneform.asset('sampledata/ModelsB/leaves.fbx',
+        'default',
+        'sampledata/ModelsB/leaves.sfa',
+        'src/main/res/raw/leaves')
+
+sceneform.asset('sampledata/ModelsB/pumpkin.fbx',
+        'default',
+        'sampledata/ModelsB/pumpkin.sfa',
+        'src/main/res/raw/pumpkin')
+
+sceneform.asset('sampledata/ModelsB/tree.fbx',
+        'default',
+        'sampledata/ModelsB/tree.sfa',
+        'src/main/res/raw/tree')
+
+sceneform.asset('sampledata/ModelsB/scarytree.fbx',
+        'default',
+        'sampledata/ModelsB/scarytree.sfa',
+        'src/main/res/raw/scarytree')
+
+sceneform.asset('sampledata/ModelsB/spider.fbx',
+        'default',
+        'sampledata/ModelsB/spider.sfa',
+        'src/main/res/raw/spider')

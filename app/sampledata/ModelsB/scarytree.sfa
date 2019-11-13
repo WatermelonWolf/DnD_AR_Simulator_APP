@@ -1,0 +1,74 @@
+{
+  animations: [
+    {
+      path: 'sampledata/ModelsB/scarytree.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material_32',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '3',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/ModelsB/scarytree.fbx',
+    name: 'scarytree',
+    recenter: 'root',
+    scale: 150,
+  },
+  samplers: [
+    {
+      file: 'sampledata/ModelsB\\scarytree.fbm\\3.png',
+      name: '3',
+      pipeline_name: 'scarytree.fbm\\3.png',
+    },
+    {
+      file: 'sampledata/ModelsB\\scarytree.fbm\\5.png',
+      name: '5',
+      pipeline_name: 'scarytree.fbm\\5.png',
+    },
+  ],
+  version: '0.54:2',
+}

@@ -1,0 +1,101 @@
+{
+  materials: [
+    {
+      name: 'unnamed material',
+      parameters: [
+        {
+          baseColorFactor: null,
+        },
+        {
+          baseColor: null,
+        },
+        {
+          diffuseColorFactor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          diffuseColor: 'ef91b798b09bf46358215887bc82df372be83fa3',
+        },
+        {
+          normal: 'eca5e3dc0717543e5e0dea48d71a781bbe0f197d',
+        },
+        {
+          metallicFactor: null,
+        },
+        {
+          roughnessFactor: null,
+        },
+        {
+          specularFactor: [
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          glossinessFactor: 1,
+        },
+        {
+          specularGlossiness: 'dd80e9bb3ba315a5e2338edd573519a73bef6675',
+        },
+        {
+          specularGlossinessCalculation: null,
+        },
+        {
+          metallicRoughness: null,
+        },
+        {
+          occlusion: null,
+        },
+        {
+          emissiveFactor: [
+            0,
+            0,
+            0,
+            1,
+          ],
+        },
+        {
+          emissive: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/gltf_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+    ],
+    collision: {},
+    file: 'sampledata/models/zombie.glb',
+    name: 'zombie',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      name: 'ef91b798b09bf46358215887bc82df372be83fa3',
+      pipeline_name: '*1',
+    },
+    {
+      name: 'dd80e9bb3ba315a5e2338edd573519a73bef6675',
+      pipeline_name: '*2',
+    },
+    {
+      name: 'eca5e3dc0717543e5e0dea48d71a781bbe0f197d',
+      params: {
+        usage_type: 'Normal',
+      },
+      pipeline_name: '*0',
+    },
+  ],
+  version: '0.54:2',
+}

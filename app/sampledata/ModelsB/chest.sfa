@@ -1,0 +1,112 @@
+{
+  animations: [
+    {
+      path: 'sampledata/ModelsB/chest.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material_201',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '50',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Material_202',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '50',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/ModelsB/chest.fbx',
+    name: 'chest',
+    recenter: 'root',
+    scale: 80,
+  },
+  samplers: [
+    {
+      file: 'sampledata/ModelsB\\chest.fbm\\50.png',
+      name: '50',
+      pipeline_name: 'chest.fbm\\50.png',
+    },
+    {
+      file: 'sampledata/ModelsB\\chest.fbm\\52.png',
+      name: '52',
+      pipeline_name: 'chest.fbm\\52.png',
+    },
+  ],
+  version: '0.54:2',
+}

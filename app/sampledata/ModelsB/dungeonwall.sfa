@@ -1,0 +1,218 @@
+{
+  animations: [
+    {
+      path: 'sampledata/ModelsB/dungeonwall.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material_35',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '3',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Material_36',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '6',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Material_37',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '9',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Material_38',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '12',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/ModelsB/dungeonwall.fbx',
+    name: 'dungeonwall',
+    recenter: 'root',
+    scale: 150,
+  },
+  samplers: [
+    {
+      file: 'sampledata/ModelsB\\dungeonwall.fbm\\3.png',
+      name: '3',
+      pipeline_name: 'dungeonwall.fbm\\3.png',
+    },
+    {
+      file: 'sampledata/ModelsB\\dungeonwall.fbm\\5.png',
+      name: '5',
+      pipeline_name: 'dungeonwall.fbm\\5.png',
+    },
+    {
+      file: 'sampledata/ModelsB\\dungeonwall.fbm\\6.png',
+      name: '6',
+      pipeline_name: 'dungeonwall.fbm\\6.png',
+    },
+    {
+      file: 'sampledata/ModelsB\\dungeonwall.fbm\\8.png',
+      name: '8',
+      pipeline_name: 'dungeonwall.fbm\\8.png',
+    },
+    {
+      file: 'sampledata/ModelsB\\dungeonwall.fbm\\12.png',
+      name: '12',
+      pipeline_name: 'dungeonwall.fbm\\12.png',
+    },
+    {
+      file: 'sampledata/ModelsB\\dungeonwall.fbm\\9.png',
+      name: '9',
+      pipeline_name: 'dungeonwall.fbm\\9.png',
+    },
+    {
+      file: 'sampledata/ModelsB\\dungeonwall.fbm\\11.png',
+      name: '11',
+      pipeline_name: 'dungeonwall.fbm\\11.png',
+    },
+    {
+      file: 'sampledata/ModelsB\\dungeonwall.fbm\\14.png',
+      name: '14',
+      pipeline_name: 'dungeonwall.fbm\\14.png',
+    },
+  ],
+  version: '0.54:2',
+}

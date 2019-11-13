@@ -1,0 +1,170 @@
+{
+  animations: [
+    {
+      path: 'sampledata/ModelsB/tree.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material_34',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '3',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Material_35',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '8',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Material_36',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '13',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/ModelsB/tree.fbx',
+    name: 'tree',
+    recenter: 'root',
+    scale: 225,
+  },
+  samplers: [
+    {
+      file: 'sampledata/ModelsB\\tree.fbm\\10.png',
+      name: '10',
+      pipeline_name: 'tree.fbm\\10.png',
+    },
+    {
+      file: 'sampledata/ModelsB\\tree.fbm\\3.png',
+      name: '3',
+      pipeline_name: 'tree.fbm\\3.png',
+    },
+    {
+      file: 'sampledata/ModelsB\\tree.fbm\\5.png',
+      name: '5',
+      pipeline_name: 'tree.fbm\\5.png',
+    },
+    {
+      file: 'sampledata/ModelsB\\tree.fbm\\13.png',
+      name: '13',
+      pipeline_name: 'tree.fbm\\13.png',
+    },
+    {
+      file: 'sampledata/ModelsB\\tree.fbm\\8.png',
+      name: '8',
+      pipeline_name: 'tree.fbm\\8.png',
+    },
+    {
+      file: 'sampledata/ModelsB\\tree.fbm\\15.png',
+      name: '15',
+      pipeline_name: 'tree.fbm\\15.png',
+    },
+  ],
+  version: '0.54:2',
+}

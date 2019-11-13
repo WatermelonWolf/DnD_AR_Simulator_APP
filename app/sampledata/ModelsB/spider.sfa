@@ -1,0 +1,74 @@
+{
+  animations: [
+    {
+      path: 'sampledata/ModelsB/spider.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material_32',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '3',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/ModelsB/spider.fbx',
+    name: 'spider',
+    recenter: 'root',
+    scale: 100,
+  },
+  samplers: [
+    {
+      file: 'sampledata/ModelsB\\spider.fbm\\3.png',
+      name: '3',
+      pipeline_name: 'spider.fbm\\3.png',
+    },
+    {
+      file: 'sampledata/ModelsB\\spider.fbm\\5.png',
+      name: '5',
+      pipeline_name: 'spider.fbm\\5.png',
+    },
+  ],
+  version: '0.54:2',
+}

@@ -1,0 +1,122 @@
+{
+  animations: [
+    {
+      path: 'sampledata/ModelsB/reaper.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Material_91',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '16',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Material_92',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '20',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'sampledata/ModelsB/reaper.fbx',
+    name: 'reaper',
+    recenter: 'root',
+    scale: 150,
+  },
+  samplers: [
+    {
+      file: 'sampledata/ModelsB\\reaper.fbm\\16.png',
+      name: '16',
+      pipeline_name: 'reaper.fbm\\16.png',
+    },
+    {
+      file: 'sampledata/ModelsB\\reaper.fbm\\18.png',
+      name: '18',
+      pipeline_name: 'reaper.fbm\\18.png',
+    },
+    {
+      file: 'sampledata/ModelsB\\reaper.fbm\\20.png',
+      name: '20',
+      pipeline_name: 'reaper.fbm\\20.png',
+    },
+    {
+      file: 'sampledata/ModelsB\\reaper.fbm\\22.png',
+      name: '22',
+      pipeline_name: 'reaper.fbm\\22.png',
+    },
+  ],
+  version: '0.54:2',
+}
